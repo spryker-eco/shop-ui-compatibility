@@ -1,5 +1,5 @@
 {
-  "name": "spryker/shop-ui-compatibility",
+  "name": "spryker-eco/shop-ui-compatibility",
   "description": "ShopUi Compatibility module",
   "license": "proprietary",
   "require": {
@@ -15,12 +15,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Spryker\\": "src/Spryker/"
+      "Spryker\\": "src/SprykerEco/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Spryker\\": "src/Spryker/"
+      "Spryker\\": "src/SprykerEco/"
     }
   },
   "minimum-stability": "dev",
