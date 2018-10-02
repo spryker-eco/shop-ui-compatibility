@@ -8,8 +8,6 @@ const appSettings = require('../settings');
 const finder = require('../libs/finder');
 const alias = require('../libs/alias');
 
-console.log(path.join(__dirname, '../../../../'));
-
 module.exports = {
     context: appSettings.context,
     mode: 'development',
