@@ -1,6 +1,4 @@
 const path = require('path');
-const coreDetector = require('./libs/core-detector');
-const isCoreNonSplitVersion = coreDetector.isNonSplitVersion();
 
 // define the applicatin name
 // important: the name must be normalized
@@ -26,13 +24,7 @@ const paths = {
     // core folders
     core: {
         // all modules
-        modules: isCoreNonSplitVersion
-            ? './vendor/spryker/spryker-shop/Bundles'
-            : './vendor/spryker/spryker-shop',
-        // ShopUi source folder
-        shopUiModule: isCoreNonSplitVersion
-            ? `./vendor/spryker/spryker-shop/Bundles/ShopUi/src/SprykerShop/Yves/ShopUi/Theme/${theme}`
-            : `./vendor/spryker/spryker-shop/shop-ui/src/SprykerShop/Yves/ShopUi/Theme/${theme}`
+        modules: './vendor/spryker/spryker-shop'
     },
 
     eco: {
