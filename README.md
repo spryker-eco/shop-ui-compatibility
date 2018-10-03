@@ -5,7 +5,7 @@ TODO
 ## Installation
 
 ```
-composer require spryker/shop-ui-compatibility
+composer require spryker-eco/shop-ui-compatibility
 ```
 
 ## Documentation

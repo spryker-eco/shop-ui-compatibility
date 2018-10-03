@@ -145,6 +145,13 @@ class ShopUiCompatibilityTwigExtension extends TwigExtension
                 $this,
                 'widgetExists',
             ]),
+
+            new Twig_SimpleFunction('widgetGlobalExists', function () {
+                return false;
+            }, [
+                $this,
+                'widgetGlobalExists',
+            ]),
         ];
     }
 

@@ -26,7 +26,7 @@ class ShopUiCompatibilityDefineTwigTokenParser extends Twig_TokenParser
      *
      * @return \SprykerEco\Yves\ShopUiCompatibility\Twig\Node\ShopUiCompatibilityDefineTwigNode
      */
-    public function parse(Twig_Token $token): ShopUiDefineTwigNode
+    public function parse(Twig_Token $token): ShopUiCompatibilityDefineTwigNode
     {
         $parser = $this->parser;
         $stream = $parser->getStream();
