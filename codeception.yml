@@ -1,9 +1,9 @@
-namespace: SprykerTest
+namespace: SprykerEcoTest
 
 include:
-    - tests/SprykerTest/Shared/Twig
-    - tests/SprykerTest/Yves/Twig
-    - tests/SprykerTest/Zed/Twig
+    - tests/SprykerEcoTest/Shared/Twig
+    - tests/SprykerEcoTest/Yves/Twig
+    - tests/SprykerEcoTest/Zed/Twig
 
 paths:
     tests: tests
