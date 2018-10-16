@@ -1,7 +1,7 @@
 {
   "name": "spryker-eco/shop-ui-compatibility",
   "description": "ShopUi Compatibility module",
-  "license": "MIT",
+  "license": "proprietary",
   "require": {
     "php": ">=7.1",
     "spryker/kernel": "^3.0.0",
