@@ -1,4 +1,4 @@
-namespace: SprykerEcoTest\Zed\ShopUiCompatibility
+namespace: SprykerEcoTest\Yves\ShopUiCompatibility
 
 paths:
   tests: .

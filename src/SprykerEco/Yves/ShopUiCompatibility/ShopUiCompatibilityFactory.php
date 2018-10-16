@@ -14,7 +14,7 @@ use Twig_ExtensionInterface;
 class ShopUiCompatibilityFactory extends AbstractFactory
 {
     /**
-     * @return Twig_ExtensionInterface
+     * @return \Twig_ExtensionInterface
      */
     public function createShopUiCompatibilityTwigExtension(): Twig_ExtensionInterface
     {
