@@ -9,13 +9,14 @@ namespace SprykerEco\Yves\ShopUiCompatibility;
 
 use Spryker\Yves\Kernel\AbstractFactory;
 use SprykerEco\Yves\ShopUiCompatibility\Twig\ShopUiCompatibilityTwigExtension;
+use Twig_ExtensionInterface;
 
 class ShopUiCompatibilityFactory extends AbstractFactory
 {
     /**
-     * @return \Spryker\Shared\Twig\TwigExtension
+     * @return Twig_ExtensionInterface
      */
-    public function createShopUiCompatibilityTwigExtension()
+    public function createShopUiCompatibilityTwigExtension(): Twig_ExtensionInterface
     {
         return new ShopUiCompatibilityTwigExtension();
     }
