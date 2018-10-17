@@ -1,6 +1,6 @@
 # ShopUiCompatibility Module
 
-TODO
+ShopUi module provides compatibility towards atomic frontend spryker shop in demoshop environment.
 
 ## Installation
 

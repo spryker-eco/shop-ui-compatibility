@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "shop-ui-compatibility",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Spryker ShopUi Compatibility module",
     "author": {
         "name": "Spryker",
