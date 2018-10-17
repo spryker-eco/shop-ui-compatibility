@@ -1,9 +1,7 @@
-namespace: SprykerTest
+namespace: ShopUiCompatibility
 
 include:
-    - tests/SprykerTest/Shared/Twig
-    - tests/SprykerTest/Yves/Twig
-    - tests/SprykerTest/Zed/Twig
+    - tests/SprykerEcoTest/Yves/ShopUiCompatibility
 
 paths:
     tests: tests
@@ -21,12 +19,6 @@ settings:
 
 coverage:
     enabled: true
-    whitelist: { include: ['src/*'] }
-
-extensions:
-    enabled:
-        - Codeception\Extension\Phantoman
-
-    config:
-        Codeception\Extension\Phantoman:
-            suites: ['Presentation']
+    whitelist:
+        include:
+        - 'src/*'
