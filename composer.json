@@ -1,9 +1,9 @@
 {
     "name": "spryker-eco/shop-ui-compatibility",
-    "description": "ShopUi Compatibility module",
+    "description": "ShopUiCompatibility module",
     "license": "proprietary",
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.3",
         "spryker/kernel": "^3.0.0",
         "spryker/twig": "^3.0.0"
     },
